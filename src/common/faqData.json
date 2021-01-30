@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "listText": "Why would I need a guest user?",
+        "DetailedText1": "Guest Users are secondary users with account access who can help manage the account. Example of guest users: Building Managers, Caretakers."
+    },
+    {
+        "id": 2,
+        "listText": "How many guest users can I add?",
+        "DetailedText1": "You may add up to 5 guest users."
+    },
+    {
+        "id": 3,
+        "listText": "What is the difference between a guest user and a co-applicant?",
+        "DetailedText1": "While both a Guest User and Co-Applicant can help manage the account, a Co-Applicant is also partly responsible for payment."
+    }
+]

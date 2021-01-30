@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\AccountService\\ManageUsers",
+    "\\src\\components\\Prelogin",
+    "\\src\\components\\Prelogin\\Register",
+    "\\src\\components\\Prelogin\\Register\\stepper"
+  ],
+  "SelectedNode": "\\src\\components\\Prelogin\\Register\\stepper\\step-3.jsx",
+  "PreviewInSolutionExplorer": false
+}

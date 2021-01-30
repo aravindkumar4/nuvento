@@ -1,0 +1,693 @@
+.searchportfolio.pldgehistrysrch.profileDataSearch{
+    margin-top: 20px;
+}
+.dashboardPerform{
+    float: left;
+    display: block;
+    width: 100%;
+    margin-top: 16px;
+}
+.dashboardPerform .MuiFormControlLabel-root{
+    align-items: flex-start;
+    text-align: left;
+}
+.dashboardPerform span.MuiFormControlLabel-label{
+    color: #666366;
+    font-size: 15px;
+    letter-spacing: 0.53px;
+    line-height: 24px;
+    padding-top: 7px;
+}
+.Quick_LinkBox{
+    height: auto;
+}
+.Quick_LinkBox .srchbuttonhome{
+    margin-top: 16px;
+}
+.signUpNotification p{
+    color: #222221;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    text-align: left;
+}
+.signUpNotification h3{
+    text-align: center;
+}
+.Quick_LinkBox .srchbuttonhome.notificationSeting, .signUpNotification button{
+    min-width: 248px;
+    width: 248px;
+    margin: auto;
+}
+.Quick_LinkBox.MiniBox_Right.signUpNotification{
+    margin-top: 15px;
+}
+.addressVerify h3{
+  color: #222221;
+  font-size: 20px;
+  letter-spacing: 0.25px;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 0;
+}
+.addressVerify p{
+    color: #222221;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+}
+.addressVerify .verifyPara{
+    margin-top: 20px;
+}
+.addressVerify .TextFieldWrapper{
+    margin-bottom: 25px !important;
+}
+.signUpNotification h5{
+  color: #222221;
+  font-size: 20px;
+  letter-spacing: 0.25px;
+  line-height: 24px;
+  text-align: center;
+}
+.accordionInfoStyle .expanddtls h4{
+  color: #696969;
+  font-size: 17px;
+  letter-spacing: 0.25px;
+  line-height: 24px;
+  padding: 5px 0;
+}
+.accordionInfoStyle .expanddtls label{
+  color: #222221;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  padding-bottom: 5px;
+}
+.accordionInfoStyle .expanddtls .dispLabel{
+    display: initial;
+}
+.accordionInfoStyle .expanddtls .dispLabel .accToltip{
+    margin-top: 0;
+}
+.accordionInfoStyle .billhistoryaccor a{
+    text-decoration: underline;
+}
+.accordionInfoStyle .billhistoryaccor a:hover{
+    text-decoration: none;
+}
+.accordionInfoStyle .payHisLabel label:first-child{
+    padding-right: 80px;
+}
+.accordionInfoStyle .payHisLabel{
+    justify-content: initial;
+}
+.usageHeadData{
+    display: flex;
+    justify-content: center;
+}
+.usageHeadData .UsageSelecters{
+    width: auto;
+}
+.pledgeIconGroup{
+    display: flex;
+}
+.pledgeIconGroup span{
+    margin-right: 20px;
+}
+.makePledgeStepper .expanddtls{
+    border-bottom: none;
+}
+.PayPledgeSec ol.progtrckr li{
+    width: 95%;
+}
+.AddPaymentNew{
+    text-transform: initial !important;
+}
+.termsCheck a{
+    text-decoration: none;
+}
+.profileEdit.profileEditLink .editBtn span{
+    text-decoration: underline;
+}
+.profileEdit.profileEditLink .editBtn span:hover{
+    text-decoration: none;
+}
+.profileEditLink button{
+    padding-right: 0;
+    padding-left: 0;
+}
+/* .myProfileSec .MuiButton-root{
+    min-width: auto;
+} */
+.notificationSec .NotificationNavBar  .MuiListItemIcon-root{
+    min-width: 34px;
+}
+.notificationSec .NotificationNavBar>li{
+    margin-left: 0;
+}
+.notificationSec .MuiPaper-root{
+    padding: 15px 25px 0;
+}
+.notificationSec .MailUserInfo{
+    padding: 20px 20px 20px 20px;
+}
+.notificationSec .MailBodyContent{
+    padding: 10px 30px 20px 30px;
+}
+.viewDetailModal .MuiDialog-paperWidthSm{
+  width: 464px;
+  border: 1px solid #DCDCDC;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  box-shadow: 0 24px 48px 0 rgba(0,0,0,0.15);
+  padding-bottom: 10px;
+}
+.viewCancelModal .MuiDialog-paperWidthSm{
+  width: 482px;
+  border: 1px solid #DCDCDC;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  box-shadow: 0 24px 48px 0 rgba(0,0,0,0.15);
+  padding-bottom: 10px;
+}
+.viewCancelModal p{
+    color: #222221;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+}
+.viewCancelModal .MuiTypography-h6{
+    color: #696969;
+    font-family: "Proxima Nova";
+    font-size: 17px;
+    letter-spacing: 0.25px;
+    line-height: 24px;
+}
+.viewDetailModal .MuiDialogTitle-root{
+    border-bottom: none;
+    padding-bottom: 0;
+    color: #696969;
+    font-size: 17px;
+    letter-spacing: 0.25px;
+    line-height: 24px;
+}
+.viewDetailModal .MuiButton-text, .viewCancelModal .MuiButton-text{
+    text-transform: capitalize;
+    color: #0d934b;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    text-align: right;
+    outline: 0;
+}
+.viewDetailModal .MuiButton-text:focus, .viewCancelModal .MuiButton-text:focus{
+    outline: 0;
+}
+.customerDetail strong{
+    color: #222221;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    width: 100%;
+}
+.customerDetail label{
+    color: #222221;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.searchtextfield label{
+    font-size: 15px;
+}
+.editPledgeSec ol.progtrckr.progtrckrpay:after{
+    border-bottom: 1px solid #d8d8d8 !important;
+    margin-top: 5px;
+}
+.formSel{
+    margin: 20px 0 10px !important;
+}
+.editPledgeStep2 .expanddtls h4{
+    color: #333333;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+.editPledgeStep2 .expanddtls label {
+  color: #808080;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+.editPledgeStep2 .expanddtls{
+    border-bottom: none;
+}
+.edirSucessPay{
+  padding: 0px 50px 0px 50px;
+}
+.agencyRegis h3{
+    color: #222221;
+    font-size: 17px;
+    letter-spacing: 0.25px;
+    line-height: 24px;
+    margin-top: 30px;
+}
+.agencyRegis .MuiFormGroup-root{
+    color: #666366;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    letter-spacing: 0.53px;
+    line-height: 24px;
+}
+.regisSecondStep h3, .registerstep3 h3{
+  color: #222221;
+  font-size: 17px;
+  letter-spacing: 0.25px;
+  line-height: 24px;
+}
+.regisSecondStep h3.secHeading{
+    margin-top: 30px;
+}
+.agencyRegis .requestree{
+    margin: 0 0;
+}
+.regisFooterBtn .paybuttons button{
+    height: 36px;
+}
+.registerstep3 .checkboxlist{
+    display: flex;
+    width: 100%;
+    margin: 0 -10px;
+}
+.registerstep3 .checkboxlist label{
+    margin: 0;
+}
+.registerstep3 .checkboxlist a{
+    float: initial;
+    margin: 0;
+}
+.registerstep3 h3{
+    margin-top: 30px;
+}
+.registerstep3 .MuiButton-textPrimary{
+    color: #0d934b;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.registerstep3  span.MuiTypography-root {
+  color: #333333;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+.registerstep3  p.MuiTypography-root{
+  color: #808080;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+.registerstep3 .MuiAvatar-colorDefault{
+    margin-right: 10px;
+}
+.regisFooterBtn ol.progtrckrs li{
+    width: 46.8%;
+}
+.registerSucess .successHead{
+    margin: 0 0 0 0;
+}
+.registerSucess .successHead p{
+  color: #222221;
+  font-size: 29px;
+  letter-spacing: 0.25px;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.registerSucess .successview{
+  color: #222221;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.weRSorry .iconsuccess{
+    background-color: #AF0220;
+}
+.weRSorry .successHead>.successtext {
+    color: #222221;
+    font-size: 29px;
+    letter-spacing: 0.25px;
+    line-height: 40px;
+    text-align: center;
+}
+.weRSorryPaper {
+    margin-top: 30px;
+    float: left;
+}
+.weRSorry .success{
+    color: #222221;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 0;
+}  
+.billingpayarea.weRSorry>.success:after{
+    border-bottom: none;
+}
+
+.loginSec ol.progtrckrs li{
+    width: 95%;
+}
+.loginSec ol.progtrckrs li:nth-child(2){
+    width: 25px !important;
+    border-bottom: none;
+}
+.loginSec ol.progtrckrs li:nth-child(2):before{
+    top: 40px;
+}
+.loginSucessec .emailBg{
+    background-color: #F0F2F4;
+    color: #222221;
+    font-size: 20px;
+    letter-spacing: 0.25px;
+    line-height: 32px;
+    text-align: center;
+    padding: 30px 0px;
+    margin: auto;
+    margin: 15px 45px 30px;
+    width: 100%;
+}
+.loginSucessec .activationLink a{
+    text-decoration: underline;
+}
+.loginSucessec .registerSucess .successview{
+    padding: 0 45px;
+}
+input:-internal-autofill-selected{
+    background-color: transparent !important;
+}
+.alreadyAcc a{
+    text-decoration: underline;
+    margin-top: 10px;
+    display: block;
+}
+.loginSucessec .activationLink a:hover, .alreadyAcc a:hover{
+    text-decoration: none;
+}
+.makePledge ol.progtrckrs li{
+    width: 46%;
+}
+/*.accStyleMake{
+    border: 1px solid #E0E4E8;
+}
+.accStyleMake .expanddtls {
+    border-bottom: 1px solid #E0E4E8 ;
+}
+.accStyleMake .expanddtls:last-child{
+    border-bottom: none;
+}*/
+.expanddtls.border-1 {
+    border-bottom: 1px solid #E0E4E8;
+}
+.popupCustomerStatus .MuiExpansionPanelDetails-root{
+    padding: 8px 0;
+}
+.popupCustomerStatus .expanddtls {
+    border-bottom: none;
+}
+.popupCustomerStatus .expanddtls.border-1 {
+    border-bottom: 1px solid #E0E4E8;
+}
+.justifyBtnsCol{
+    flex-direction: column;
+}
+.justifyBtnsCol button{
+    margin-bottom: 30px;
+}
+.payPledgeSuc .expanddtls{
+    border-bottom: none;
+}
+.downloadPagination{
+    position: relative;
+}
+ .downloadPledgesLink{
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    text-decoration: underline;
+    border:0;
+    background: transparent;
+    color: #0C75DF;
+}
+.downloadPledgesLink:hover{
+    text-decoration: none;
+}
+.notificationSec .MailBodyContent{
+    padding-left: 80px !important;
+}
+.passwordStrengthGroup{
+    position: relative;
+}
+.resetProgressBar{
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 12px 0 rgba(0,0,0,0.15);
+    padding: 24px;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+    top: 68px;
+}
+.resetProgressBar small{
+  color: #222221;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+.resetProgressBar .resetPasswordNeed{
+    margin: 15px 0 0;
+    border-top: 1px solid #D8D8D8;
+    padding-top: 15px;
+}
+
+.resetProgressBar .resetPasswordNeed li{
+  color: #222221;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  padding: 3px 0;
+}
+.resetProgressBar .resetPasswordNeed li i{
+    vertical-align: middle;
+}
+.loginSecStep input:-webkit-autofill {transition: background-color 5000s ease-in-out 0s;}
+
+.MuiTablePagination-root .MuiButtonBase-root{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.paybuttons button, .paybuttons a{
+    margin-left: 15px;
+}
+.Profilesection table tbody tr:nth-child(odd) {
+    background: #fff;
+}
+.Profilesection table tbody tr:nth-child(odd) {
+    background: #fff;
+}
+.accountboxTabble, .paymentHisTable{
+    padding-right: 0;
+    padding-left: 0;
+}
+.editProfileGroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.editProfileGroup .profileEditbox{
+    width: 75%;
+}
+@media all and (min-width:320px) and (max-width:767px){
+    .accordionInfoStyle .payHisLabel label:first-child{
+        padding-right: 0px;
+    }
+    .Profilesection table tbody tr:nth-child(odd) {
+        background: #f5f5f5;
+    }
+    .Profilesection table tbody tr:nth-child(odd) {
+        background: #f5f5f5;
+    }
+    .accordionInfoStyle .payHisLabel{
+        justify-content: space-between;
+    }
+    .accordionInfoStyle .payHisLabel label{
+        width: auto;
+    }
+    .PayPledgeSec ol.progtrckr li{
+        width: 90%;
+    }
+    .notificationSec .MuiPaper-root{
+        padding: 0 0 0;
+    }
+    .pledgeSec .searchtextfield label{
+        font-size: 13px;
+    }
+    .pledgeSec .accountboxContainer{
+        flex-direction: column;
+    }
+    .pledgeSec .responsiveTbl .autopbuttonarea.pledges_btn{
+        left: 0;
+        top: -39PX;
+        float: left;
+        position: relative;
+        min-width: 100%;
+    }
+    .pledgeSec .pledges_btn .autopayenable, .pledgeSec .pledges_btn .autopayenable:hover{
+        width: 100%;
+    }
+    .registerstep3 .MuiListItem-gutters{
+        padding-right: 0;
+    }
+    .registerstep3 .MuiAvatar-colorDefault{
+        margin-right: 0px;
+    }
+    .registerStep1 .pl-3{
+        padding-left: 0 !important; 
+    }
+    .regisFooterBtn ol.progtrckrs li{
+        width: 43.8%;
+    }
+    .loginSec ol.progtrckrs li{
+        width: 91%;
+    }
+    .makePledge ol.progtrckrs li{
+        width: 44%;
+    }
+    .billHisDetail label{
+        width: auto;
+    }
+    .pledgeHis div[role='region']{
+        width: 100%;
+        overflow-x: auto;
+    }
+    .pledgeHis .pledgeHisContent{
+        width: 550px;
+    }
+    .pledgeHis .pledgeHisContent .expanddtls.billhistoryaccor{
+        flex-wrap: initial;
+    }
+    .UsageSelectersRes{
+        margin-top: 15px;
+    }
+    .mixedChartRes {
+        width: 100%;
+        margin: 0;
+        overflow-x: auto;
+    }
+    .mixedChartResCon{
+        width: 500px;
+    }
+    .resProfileData{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .categorydropRes{
+        position: relative;
+        top: auto;
+        right: auto;
+    }
+    .notifyRow{
+        display: flex;
+        flex-direction: column;
+    }
+    .NotifTable>table>tbody>tr>td.message{
+        padding-left: 12px !important;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .NotifTable>table>tbody>tr>td.datetime{
+        width: 100%;
+        margin-bottom: 10px;
+        flex-direction: row;
+        padding-left: 15px;
+    }
+    .NotifTable .module-box-topbar, .NotifTable>table>tbody>tr>td.chkBoxstartBtn{
+        padding-left: 0 !important;
+    }
+    .notificationSec .MailBodyContent{
+        padding-left: 20px !important;
+    }
+    .searchtextfield  label{
+        font-size: 13px;
+    }
+    .Resdownload_tbllnk{
+        position: relative;
+        left: auto;
+        margin-top: 15px;
+    }
+    .MuiTablePagination-selectRoot{
+        margin-right: 0 !important;
+    }
+    .MuiTablePagination-actions{
+        margin-left: 0 !important;
+    }
+    .overflowAutoMob{
+        width: 100%;
+        overflow-x: auto;
+    }
+    .Resregisterstep3 .MuiListItemText-multiline{
+        display: flex;
+        flex-direction: column;
+        width: 63%;
+    }
+    .loginSucessec .emailBg{
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 16px;
+    }
+    .accountboxTabble .respMenu {
+        padding: 10px 0 0  !important;
+    }
+    .accountboxTabble .respMenu  button{
+        position: absolute;
+        right: 0;
+    }
+    .Resgutterareapop{
+        padding: 0 0;
+    }
+    .downloadPledgesLink{
+        position: relative;
+    }
+    .profiledata-row button{
+        margin-left: auto;
+        margin-right: 10px;
+    }
+    .edirSucessPay{
+       padding: 0px 30px 0px 30px;
+    }
+    .modulebox-topbarRight{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .editProfileGroup {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .editProfileGroup .profileEditbox{
+        width: 100%;
+    }
+    .successtext{
+        font-size: 22px !important;
+    }
+}
+
+

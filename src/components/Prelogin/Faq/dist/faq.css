@@ -1,0 +1,109 @@
+.faq-page {
+  margin-top: 50px;
+}
+.faq-page .HelpHeading {
+  margin: 0;
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-family: adelle;
+  color: #222221;
+}
+.faq-page .expansiondetailsbox {
+  background: #F0F2F4;
+  padding: 24px;
+  font-size: 0.875rem;
+}
+.faq-page .expansiondetailsbox .DetailsBoxContent {
+  font-size: 14px;
+  color: #222221;
+}
+.faq-page .expansiondetailsbox .DetailsBoxContent a {
+  color: #27A088;
+  text-decoration: underline;
+}
+.faq-page .expansiondetailsbox .DetailsBoxContent a:hover {
+  color: #098169;
+  text-decoration: none;
+}
+.faq-page .expansiondetailsbox .DetailsBoxContent ul {
+  margin-top: 10px;
+}
+.faq-page .expansiondetailsbox .DetailsBoxContent ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+.faq-page .expansiondetailsbox .DetailsBoxContent ul li + li {
+  margin-top: 6px;
+}
+.faq-page .right_profile_sec {
+  background: #fff;
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 20px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .faq-page .right_profile_sec {
+    padding: 14px;
+  }
+}
+@media (max-width: 991px) {
+  .faq-page .right_profile_sec {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .faq-page .right_profile_sec {
+    padding: 5px;
+  }
+}
+.faq-page .right_profile_sec .links_sidebar {
+  padding: 12px;
+}
+.faq-page .right_profile_sec .links_sidebar h3 {
+  color: #222221;
+  font-size: 1.8125rem;
+  letter-spacing: 0.25px;
+  line-height: 40px;
+  margin: 0px;
+  border-bottom: 1px solid #e8e8e8;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.faq-page .right_profile_sec .links_sidebar .contactBox {
+  padding: 35px 12px 0;
+}
+@media (max-width: 576px) {
+  .faq-page .right_profile_sec .links_sidebar .contactBox .material-icons {
+    font-size: 18px;
+    vertical-align: top;
+  }
+}
+.faq-page .right_profile_sec .links_sidebar .contactBox .chatIntro {
+  color: #222221;
+  font-size: 20px;
+  letter-spacing: 0.25px;
+  line-height: 100%;
+  display: block;
+  margin: 0px 0px 24px 0px;
+  font-family: adelle;
+}
+@media (max-width: 576px) {
+  .faq-page .right_profile_sec .links_sidebar .contactBox .chatIntro {
+    font-size: 18px;
+  }
+}
+.faq-page .right_profile_sec .links_sidebar .contactBox a {
+  color: #27A088;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  display: block;
+}
+.faq-page .right_profile_sec .links_sidebar .contactBox a:hover {
+  color: #098169;
+  text-decoration: none;
+}
+.faq-page .right_profile_sec .links_sidebar .contactBox p {
+  color: #222221;
+  font-size: 16px;
+  margin-bottom: 10px;
+}

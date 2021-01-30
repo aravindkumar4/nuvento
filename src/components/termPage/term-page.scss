@@ -1,0 +1,119 @@
+.term-page{
+    background-color: #fff;
+    margin: 40px 0;
+    padding: 20px 0;
+    font-family: proxima-nova;
+    overflow-wrap: break-word;
+    text-align: left !important;
+    h1,h2,h3,h4,h5,h6,b,strong{
+        font-weight: normal !important;
+        font-family: Adelle !important;
+        margin: 0 0 10px !important;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 26px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 19px;
+    }
+    h6{
+        font-size: 18px;
+    }
+    ol{
+        padding-left: 15px !important;
+        margin: 0 !important;
+        font-family: proxima-nova !important;
+        font-size: 16px !important;
+        li{
+            list-style-type: inherit !important;
+            margin:15px 0 !important;
+            text-align: left !important;
+            font-family: proxima-nova !important;
+            font-size: 16px !important;
+            line-height: 24px !important;
+        }
+    }
+    ul{
+        padding-left: 15px !important;
+        margin: 0 !important;
+        font-family: proxima-nova !important;
+        font-size: 16px !important;
+        li{
+            list-style-type: disc !important;
+            margin:15px 0 !important;
+            text-align: left !important;
+            font-family: proxima-nova !important;
+            font-size: 16px !important;
+            line-height: 24px !important;
+        }
+    }
+    b,strong{
+        font-size: 30px;
+    }
+    font{
+        font-size: 16px !important;
+        font-family: "proxima-nova", sans-serif !important;
+        margin: 0 0 16px !important;
+    }
+    span{
+        font-size: 16px !important;
+        text-align: left !important;
+        font-family: "proxima-nova", sans-serif !important;
+    }
+    p{
+        text-align: left !important;
+        font-size: 16px !important;
+        font-family: "proxima-nova", sans-serif !important;
+        margin: 0 0 16px !important;
+        line-height: 24px !important;
+        b{
+            font-size: 16px !important;
+            font-family: "proxima-nova", sans-serif !important;
+            line-height: 21px !important;
+            font-weight: bold !important;
+            margin: 0 !important;
+        }
+        span{
+            font-size: 16px !important;
+            text-align: left !important;
+            font-family: "proxima-nova", sans-serif !important;
+            line-height: 21px !important;
+        }
+        strong{
+            font-size: 16px !important;
+            font-family: "proxima-nova", sans-serif !important;
+            line-height: 21px !important;
+            font-weight: bold !important;
+            margin: 0 !important;
+        }
+    }
+    u{
+        text-decoration: underline !important;
+        text-align: left !important;
+        margin: 0 0 16px !important;
+    }
+    em,i{
+        font-style: italic !important;
+        text-align: left !important;
+        margin: 0 0 16px !important;
+    }
+    a{
+        color: #27A088 !important;
+        font-size: 1rem !important;
+        text-decoration: underline !important;
+        text-align: left !important;
+        margin: 0 !important;
+        &:hover{
+            text-decoration: none !important;
+        }
+    }
+}

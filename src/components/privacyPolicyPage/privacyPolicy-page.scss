@@ -1,0 +1,25 @@
+.term-page{
+    background-color: #fff;
+    padding: 40px 0;
+    font-family: proxima-nova;
+    overflow-wrap: break-word;
+    h1,h2,h3{
+        font-weight: normal !important;
+        font-family: Adelle !important;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 26px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    ol{
+        li{
+            list-style-type: inherit;
+            margin:15px 0;
+        }
+    }
+}

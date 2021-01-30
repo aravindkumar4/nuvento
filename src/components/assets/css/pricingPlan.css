@@ -1,0 +1,894 @@
+.PricingTabsArea {
+    padding: 20px 3rem 0;
+    display: block;
+    width: 100%;
+}
+
+.PricingTabsArea .containerpricing {
+    display: block;
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin: 100px auto 0 auto;
+}
+
+.PricingTabsArea .silver, .PricingTabsArea .plat {
+    float: left;
+    width: 31%;
+    background: #ffffff;
+    text-align: center;
+    box-shadow: 10px 12px 24px 0px rgba(0, 0, 0, 0.15);
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.PricingTabsArea .silver {
+    box-shadow: -10px 12px 24px 0px rgba(0, 0, 0, 0.15);
+}
+
+.PricingTabsArea .gold {
+    float: left;
+    position: relative;
+    width: 38%;
+    top: -50px;
+    padding: 0px 0 50px 0;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.PricingTabsArea .gold>.price {
+    background: #ffffff;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.PricingTabsArea .gold>h3, .PricingTabsArea .gold>h2, .PricingTabsArea .gold>p, .PricingTabsArea .gold>span {
+    color: #ffffff;
+}
+
+.PricingTabsArea .gold .outer-triangle>p {
+    color: #ffffff;
+    font-size: 0.875rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.pp_boxHeader {
+    background-color: #dbdbdb;
+    width: 100%;
+    padding: 23px 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+.pp_boxHeader h3 {
+    margin: 0;
+    font-size: 1.8125rem;
+    color: #4c4c4c;
+    line-height: 1.04;
+}
+
+.pp_boxHeader h2 {
+    font-size: 1rem;
+    color: #696969;
+    font-weight: 100;
+    letter-spacing: .5px;
+    margin: 10px 0 0 0;
+    line-height: 1.141;
+}
+
+.pp_boxminheader {
+    background-color: rgba(77, 77, 77, 0.1);
+    width: 100%;
+    padding: 19px;
+}
+
+.pp_boxminheader>p {
+    color: #4c4c4c;
+    margin: 0;
+    font-weight: 100;
+    font-size: 1.0625rem;
+}
+
+.GoldHeadWrapper {
+    background: #088856;
+    width: 100%;
+    padding-top: 18px;
+}
+
+.pp_boxbody>.savingspricetag {
+    padding: 20px 0 15px 0;
+}
+
+.pp_boxbody>.savingspricetag>p {
+    color: #4c4c4c;
+    font-size: 1.5rem;
+    margin: 10px 0;
+    font-family: 'Opensans-Bold';
+}
+
+.pp_boxbody>.savingspricetag>label {
+    margin: 0;
+    font-size: 1rem;
+    color: #696969;
+}
+
+.pp_boxbody>ul {
+    padding-top: 2rem;
+}
+
+.pp_boxbody>ul>li {
+    font-size: 0.875rem;
+    color: #696969;
+    padding: 15px 2rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: left;
+}
+
+.pp_boxbody>ul>li>i {
+    margin-right: 10px;
+    font-size: 1.0625rem;
+    margin-top: 6px;
+}
+
+.pp_boxbody>ul>li>.mdl-button--icon>i {
+    font-size: 1.3125rem;
+}
+
+.ppviewdetails {
+    padding: 15px 0;
+    width: 100%;
+}
+
+.ppviewdetails>a {
+    color: #27A088;
+    font-size: 0.875rem;
+    text-decoration: underline;
+}
+
+.pp_boxfooter {
+    padding: 20px 0;
+    width: 100%;
+}
+
+.pp_boxfooter>.ppbuttons {
+    border: 2px solid #4D4D4D;
+    color: #4D4D4D;
+    font-size: 0.875rem;
+    text-align: center;
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px 50px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.PricingTabsArea span {
+    letter-spacing: 1px;
+}
+
+.PricingTabsArea .price {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: #e74c3c;
+    border-radius: 50%;
+    line-height: 100px;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 100;
+    margin: 20px auto;
+}
+
+.gold .pp_boxHeader {
+    background: transparent;
+    padding: 7px 20px 19px 20px;
+}
+
+.gold .pp_boxHeader h3 {
+    color: #ffffff;
+    font-size: 3.75rem;
+}
+
+.gold .pp_boxHeader h2 {
+    color: #ffffff;
+}
+
+.gold .pp_boxminheader {
+    background-color: transparent;
+    position: relative;
+}
+
+.gold .pp_boxminheader>p {
+    color: #ffffff;
+}
+
+.gold .pp_boxminheader:before {
+    content: '';
+    border-top: solid 1px #fff;
+    top: 0;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+}
+
+.gold .pp_boxminheader:after {
+    content: '';
+    border-bottom: solid 0px #fff;
+    bottom: 0;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+}
+
+.gold .pp_boxfooter>.ppbuttons {
+    background-color: #088856;
+    color: #fff;
+    border: solid 2px #088856;
+}
+
+.pp_boxDownloadarea {
+    display: flex;
+    width: 100%;
+}
+
+.pp_boxDownloadarea>ul {
+    display: flex;
+    width: 100%;
+}
+
+.pp_boxDownloadarea>ul>li>a {
+    display: flex;
+    padding: 0px 10px;
+    align-items: center;
+    color: #088856;
+    font-size: 1rem;
+}
+
+.pp_boxDownloadarea>ul>li>a>i {
+    margin-right: 5px;
+}
+
+.Paratxt {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.Paratxt>p {
+    flex: 1;
+    display: flex;
+    margin: 0;
+    font-size: 1rem;
+    color: #696969;
+}
+
+.plantable.table-bordered {
+    border: 1px solid #dee2e6;
+    margin-bottom: 0;
+    border-bottom: 0px solid #dee2e6;
+    border-left: 0px solid #dee2e6;
+}
+
+.plantable thead tr>th {
+    font-size: 0.75rem;
+    font-weight: normal;
+    background-color: #F3F8FD;
+    color: #696969;
+    text-transform: uppercase;
+    align-items: center;
+    line-height: 20px;
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
+}
+
+.plantable thead th>.mdl-button.mdl-js-button {
+    position: absolute;
+    right: 2px;
+    top: 15px;
+}
+
+.plantable thead th>.mdl-button.mdl-js-button>i {
+    font-size: 1.1875rem;
+}
+
+.plantable td h5, .plantable td p {
+    margin: 0;
+}
+
+.plantable td h5 {
+    color: #696969;
+    font-size: 1rem;
+    display: inline-block;
+    padding: 0 0 0 7px;
+    vertical-align: middle;
+}
+
+.plantable td p {
+    color: #696969;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    padding-left: 36px;
+}
+
+.plantable tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.plantable tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.plantable tr td {
+    color: #696969;
+    font-size: 0.875rem;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.plantable tr td:nth-child(4) {
+    text-align: left;
+}
+
+.plantable tr td a {
+    color: #27A088;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+.plantable tr td i {
+    color: #088856;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.plantable tr td:nth-child(1), .plantable tr th:nth-child(1) {
+    box-shadow: 10px 0px 20px 0px rgba(82, 82, 82, 0.12);
+    text-align: left;
+    padding-left: 20px;
+    border-left: none;
+}
+
+.plantable tr td:nth-child(1)>i, .plantable tr th:nth-child(1)>i {
+    color: #696969;
+}
+
+.topchartarea {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 0 40px 0;
+    width: 100%;
+}
+
+.topchartarea ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F5F5F5;
+    padding: 0;
+    border-radius: 6px;
+}
+
+.topchartarea ul>li {
+    padding: 17px 19px;
+    position: relative;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topchartarea ul>li:nth-child(1):after {
+    content: '';
+    position: absolute;
+    border-right: solid 1px #fff;
+    top: 10%;
+    bottom: 10%;
+    right: 0;
+}
+
+.topchartarea ul>li>p {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #4C4C4C;
+    font-size: 1.5rem;
+}
+
+.topchartarea ul>li>p>span {
+    width: auto;
+    margin: 0;
+    border: none;
+    color: #4c4c4c;
+    font-weight: normal;
+}
+
+.topchartarea ul>li>label {
+    margin: 0;
+    font-size: 0.75rem;
+    color: #696969;
+}
+
+.modalplandetails {
+    width: 100%;
+    background-color: #F3F8FD;
+    border-radius: 6px;
+    margin-top: 50px;
+}
+
+.modalplandetails>ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+}
+
+.modalplandetails>ul>li {
+    width: 33.33%;
+    padding: 15px 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-right: solid 1px #fff;
+}
+
+.modalplandetails>ul>li>p {
+    margin: 0;
+    line-height: 1.141;
+    display: flex;
+    font-size: 1.8125rem;
+    color: #4c4c4c;
+    justify-content: center;
+}
+
+.modalplandetails>ul>li>label {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    color: #696969;
+    font-size: 0.75rem;
+}
+
+.modalplandetails>ul>li>span {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    color: #696969;
+    font-size: 0.75rem;
+}
+
+.PlanContent {
+    padding: 2rem 1rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: solid 1px #dcdcdc;
+}
+
+.PlanContent>ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.PlanContent>ul>li {
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    color: #696969;
+    font-size: 1rem;
+}
+
+.PlanContent>ul>li:before {
+    content: "\e061";
+    position: absolute;
+    left: 0;
+    padding-top: 0;
+    font-family: 'Material Icons';
+    font-size: 8px;
+}
+
+.PlContentConclusion {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px 35px;
+}
+
+.PlContentConclusion>h5 {
+    margin: 10px 0;
+    font-size: 1.0625rem;
+    color: #4c4c4c;
+}
+
+.PlContentConclusion>p {
+    margin: 10px 0;
+    color: #696969;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.tab-content {
+    width: 100%;
+    text-align: center;
+}
+
+.landingstepmain {
+    text-align: center;
+}
+
+.landingstepmain>h4 {
+    color: #4C4C4C;
+    font-size: 1.5rem;
+    display: flex;
+    width: 100%;
+    margin: 15px 0;
+    justify-content: center;
+}
+
+.landingstepmain>p {
+    color: #696969;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.landingstepmain>i {
+    color: #27A088;
+    font-size: 4.563rem;
+    margin: 40px 0;
+}
+
+.changepricingplanmodal .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    max-width: 880px;
+    min-width: 875px;
+}
+
+.StepperDialogTitle>h6>button {
+    position: absolute;
+    right: 20px;
+}
+
+.StepperFooter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.StepperFooter>button {
+    margin: 0px 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.stepperTabs .well>h2 {
+    font-size: 1.063rem;
+    color: #696969;
+    max-width: 60%;
+    margin: 0 auto;
+    line-height: 27px;
+    text-align: center;
+}
+
+.radiowrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.radiowrapper>.RadioComboBox {
+    margin: 0px 10px;
+}
+
+.radiowrapper>.RadioComboBox>label.mdl-radio {
+    position: relative;
+    font-size: 1rem;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+.radiowrapper>.RadioComboBox>label {
+    padding: 10px 10px;
+    display: block;
+    float: left;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.mdl-radio .mdl-radio__button {
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+}
+
+.radiowrapper>.RadioComboBox span.CheckboxInfoBox {
+    border: solid 1px #d4d4d4;
+    border-radius: 13px;
+    margin: 0;
+    height: 175px;
+    width: 221px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    opacity: 1;
+    visibility: visible;
+    flex-wrap: wrap;
+}
+
+.radiowrapper>.RadioComboBox input:checked+.CheckboxInfoBox {
+    border: 4px solid #27A088;
+}
+
+.radiowrapper>.RadioComboBox>label>span.CheckboxInfoBox>.datacheck.yescheck {
+    color: #088856;
+}
+
+.radiowrapper>.RadioComboBox>label>span.CheckboxInfoBox>.datacheck.nocheck {
+    color: #BE334B;
+}
+
+.radiowrapper>.RadioComboBox>label>span.CheckboxInfoBox>.datacheck.somecheck {
+    color: #B3B3B3;
+}
+
+.radiowrapper>.RadioComboBox>label>span.CheckboxInfoBox>.datacheck>i {
+    display: block;
+    font-size: 4.375rem;
+}
+
+.radiowrapper>.RadioComboBox>label>span.CheckboxInfoBox>.datacheck>small {
+    display: flex;
+    font-size: 1rem;
+    color: #696969;
+    width: 100%;
+    font-family: 'Opensans-Bold';
+    text-transform: uppercase;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.radiowrapper>.RadioComboBox .comboxboxwrapper {
+    border: solid 1px #d4d4d4;
+    border-radius: 13px;
+    margin: 0;
+    height: 175px;
+    width: 221px;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.radiowrapper>.RadioComboBox .comboxboxwrapper>p {
+    color: #666366;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.EnrollPaperContent h1.titlehead {
+    color: #003399;
+    font-size: 1.813rem;
+    margin: 0;
+    padding: 10px 0rem 20px 0rem;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.AnDetails {
+    display: flex;
+    padding: 2rem 0;
+    width: 100%;
+    flex-wrap: wrap;
+    border-top: solid 1px #cfcfcf;
+    border-bottom: solid 1px #cfcfcf;
+    margin: 1rem 0;
+}
+
+.AnDetails>p {
+    width: 100%;
+    color: #696969;
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.AnDetails>p span {
+    padding: 0 3px;
+}
+
+.EnrollPaperBody {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.EnrollPaperContent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 2rem 3rem;
+}
+
+.EnrollPaperBody>h3 {
+    color: #4C4C4C;
+    font-size: 1.063rem;
+    margin: 7px 0;
+}
+
+.EnrollPaperBody .modalplandetails {
+    margin-top: 0;
+}
+
+.boxSuccessMsg {
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 2rem 2rem;
+    margin: 30px 0;
+}
+
+.boxSuccessMsg>h5 {
+    font-size: 1rem;
+    color: #696969;
+    font-family: 'Opensans-Bold';
+}
+
+.boxSuccessMsg>p {
+    font-size: 1rem;
+    color: #696969;
+    margin: 10px 0;
+}
+
+.boxSuccessMsg>small {
+    font-size: 0.75rem;
+    font-family: 'Opensans-Bold';
+    color: #696969;
+    margin: 15px 0 0 0;
+}
+
+.SubmitbuttonArea {
+    width: 100%;
+    display: flex;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    padding: 2rem 0 0 0;
+    border-top: solid 1px #cfcfcf;
+}
+
+.success {
+    flex-wrap: wrap;
+}
+
+.SubmitbuttonDone {
+    justify-content: center
+}
+
+.submenuPlans.submenuPlans {
+    background: #fff;
+    border: solid 0px #cdcdcd;
+    padding: 1rem 2rem;
+    box-shadow: 0 8px 22px 0 rgba(180, 180, 180, 0.5);
+    border-radius: 2px;
+    max-width: 450px
+}
+
+.submenuPlans>ul>li {
+    width: 100%;
+    border-bottom: solid 1px #cdcdcd;
+    padding: 10px 0;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.submenuPlans>ul>li>label {
+    margin: 0;
+    font-size: 1rem;
+    color: #666366;
+}
+
+.submenuPlans>ul>li>small {
+    margin: 0;
+    padding: 0px 10px;
+    color: #696969;
+    font-size: 0.75rem;
+}
+
+.ListInnerBox {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ListInnerBox>label {
+    margin: 0 10px 0 0;
+    flex: 1;
+}
+
+.ListInnerBox>label>span {
+    font-size: 0.938rem;
+    color: #696969;
+}
+
+.ButtonGrid {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 20px 0 0 0;
+}
+
+.PlansDropdown>span {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.PlansDropdown>span>span {
+    flex: 1;
+    text-align: left;
+}
+
+@media(max-width: 767px) and (min-width: 300px) {
+    .submenuPlans.submenuPlans {
+        padding: 1rem 2rem;
+        max-width: calc(100% - 32px);
+    }
+    .PricingTabsArea {
+        padding: 15px 15px 0;
+    }
+    .PricingTabsArea .silver, .PricingTabsArea .plat {
+        width: 100%;
+    }
+    .PricingTabsArea .gold {
+        width: 100%;
+        top: 0;
+        margin: 20px 0
+    }
+    .PricingTabsArea .containerpricing {
+        width: fit-content;
+        margin: 0 -20px 20px -20px;
+    }
+    .AllPlansTableWrap {
+        overflow: auto;
+    }
+}

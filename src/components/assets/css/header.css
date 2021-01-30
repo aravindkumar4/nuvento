@@ -1,0 +1,228 @@
+/* Author Prashant Kumar */
+
+/* Copyright Smart Energy Water */
+
+header.HeaderMain {
+    padding: 20px 0px;
+    background: #ffffff;
+}
+
+header.ShortHeader {
+    padding: 20px 0px;
+    background: #ffffff;
+    box-shadow: 0 0px 2px -2px rgba(0, 0, 0, .2), 0 0 0 0 rgba(0, 0, 0, .14), 0 0px 5px 0 rgba(0, 0, 0, .12);
+    min-height: 87px;
+}
+
+.tipTop {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    float: right;
+    font-family: 'Interstate-Bold'
+}
+
+.tipTop li {
+    float: left;
+    list-style: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.tipTop li:nth-last-child(1):after, .tipTop li:nth-child(1):after {
+    display: none;
+}
+
+ul.tipTop li a,
+ul.tipTop li button.dropdown-item {
+    color: #27A088;
+    font-size: 15px;
+    font-weight: normal;
+    padding: .7rem 1rem;
+    text-transform: uppercase;
+    font-family: 'Opensans-Bold';
+    text-decoration: none;
+}
+ul.tipTop li button.dropdown-item{
+    border-top:1px solid #ececec;
+}
+ul.tipTop li a i.material-icons {
+    vertical-align: bottom;
+}
+ul.tipTop li .dropdown > .nav-link > i {
+    color: #696969;
+}
+.UserNameMain {
+    padding-right: 15px;
+    color: #4c4c4c;
+}
+
+.SwitchIcon.dropdown>a.nav-link {
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SwitchIcon.dropdown.show>a.nav-link {
+    background: #e8e8e8;
+    border-radius: 80%;
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-header {
+    padding: 8px 20px;
+    background: #f8f9fa;
+    border-bottom: 1px solid #d1d4d7;
+}
+
+.dropdown-menu.dropdown-menu-right.show {
+    margin: 0;
+    padding: 0;
+    border-radius: 2px;
+    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-menu.dropdown-menu-right.show>a {
+    float: left;
+    border-bottom: solid 1px #ececec;
+}
+
+.dropdown-menu.dropdown-menu-right.show>a:nth-last-child(1) {
+    float: left;
+    border-bottom: solid 0px #ececec;
+}
+
+.tipTop .mat-menu-item {
+    min-width: 180px;
+}
+
+.tipTop .mat-menu-item {
+    position: relative;
+    padding: 10px 20px;
+    border-bottom: 1px solid #d1d4d7;
+}
+
+.tipTop .mat-menu-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #151b1e;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+ul.tipTop li.switchbox a {
+    display: inline-block;
+}
+
+ul.tipTop li.switchbox a:before {
+    content: "\F00A";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    -webkit-font-feature-settings: normal;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-family: "Font Awesome 5 Free";
+}
+
+ul.tipTop li .dropdown-menu.dropdown-menuSwitch {
+    padding: 25px 15px;
+    min-width: 300px;
+    border-radius: 2px;
+    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.15);
+}
+
+ul.tipTop li .dropdown-menu.dropdown-menuSwitch a {
+    width: 48%;
+    float: left;
+    text-align: center;
+    clear: initial;
+    display: flex;
+    padding: 7px 7px;
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    margin: 0 1% 20px 1%;
+    color: #27A088;
+    flex-wrap: wrap;
+    white-space: normal;
+    justify-content: center;
+}
+
+ul.tipTop li .dropdown-menu.dropdown-menuSwitch a:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+ul.tipTop li .dropdown-menu.dropdown-menuSwitch a:hover, ul.tipTop li .dropdown-menu.dropdown-menuSwitch a.selectedItem {
+    border: 1px solid #ccc;
+    background-color: #fbfbfb !important;
+    -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, .18), 0 0px 0px 0 rgba(0, 0, 0, .15);
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, .18), 0 0px 0px 0 rgba(0, 0, 0, .15);
+}
+
+.dropdown-menuSwitch a:hover i, .dropdown-menuSwitch a:hover span, .dropdown-menuSwitch a:focus i, .dropdown-menuSwitch a:focus span {
+    color: #27A088;
+}
+
+a#logo-container {
+    text-align: left;
+    width: 250px;
+    display: block;
+    margin-top: 5px;
+}
+
+a#logo-container img {
+    max-width: 100%;
+    width: 190px;
+}
+
+/* Responsive for Mobile Devices starts here */
+
+@media (min-width: 300px) and (max-width: 767px) {
+    .tipTop {
+        float: left;
+        display: flex;
+        flex: 1;
+        align-items: center;
+        padding: 15px 0 0 0;
+        margin: 0;
+    }
+    ul.tipTop li a {
+        color: #005984;
+        font-size: 13px;
+        font-weight: 700;
+        padding: .5rem 1rem;
+        text-transform: uppercase;
+        vertical-align: middle;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex: 1;
+    }
+    .nav-link .badge {
+        position: relative;
+        top: -3px;
+    }
+    a#logo-container {
+        position: relative;
+    }
+}
+
+/* Responsive for  Mobile Devices ends here */

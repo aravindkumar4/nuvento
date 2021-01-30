@@ -1,0 +1,44 @@
+.forgot-module{
+    .forgot-module{
+        box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.15) !important;
+        border: 1px solid #DCDCDC;
+        margin: 60px 0px 10px;
+        padding: 55px 70px;
+        background-color: #fff;
+        @media(max-width:767px){
+            padding: 35px 30px;
+        }
+        h3{
+            margin: 0 0 10px 0;
+            padding: 0;
+            font-size: 29px;
+            text-align: left;
+            color: #222221;
+            font-family: 'ff-good-headline-web-pro-con';
+        }
+        h5{
+            font-weight: normal;
+            color: #222221;
+            margin-bottom: 20px;
+        }
+        .content{
+            margin: 0 0 10px 0;
+            display: block;
+            font-size: 1rem;
+        }
+        button{
+            font-family: ff-good-headline-web-pro-con;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 24px;
+            min-height: 43px;
+            &.MuiButton-outlined {
+                border-width: 2px;
+                line-height: 20px;
+            }
+            @media(max-width:767px){                
+                margin: 10px 0 0 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.browsers-support{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media(max-width:576px){
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    h2{
+        font-size: 29px;
+        line-height: 40px;
+        color: #222221;
+        margin: 50px 0 20px;
+        font-weight: bold;
+    }
+    p{
+        font-family: proxima-nova;
+        font-size: 16px;
+        color: #222221;
+        margin: 0 0 60px;
+    }
+    h4{
+        font-size: 15px;
+        font-family: 'proxima-nova' !important;
+        font-weight: normal !important;
+        color: #27A088;
+        margin-top: 20px;
+        text-align: center;
+        @media(max-width:576px){
+            margin-top: 10px;
+            margin-bottom: 25px;
+        }
+    }
+}

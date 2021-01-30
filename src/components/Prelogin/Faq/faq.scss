@@ -1,0 +1,101 @@
+.faq-page{
+    margin-top: 50px;
+    .HelpHeading{
+        margin: 0;
+        font-size: 20px;
+        padding-bottom: 20px;
+        font-family: adelle;
+        color: #222221;
+    }
+    .expansiondetailsbox{
+        background: #F0F2F4;
+        padding: 24px;
+        font-size: 0.875rem;
+        .DetailsBoxContent{
+            font-size: 14px;
+            color: #222221;
+            a{
+                color: #27A088;
+                text-decoration: underline;
+                &:hover{
+                    color: #098169;
+                    text-decoration: none;
+                }
+            }
+            ul{
+                margin-top: 10px;
+                li{
+                    list-style: disc;
+                    margin-left: 20px;
+                    & + li{
+                        margin-top:6px;
+                    }
+                }
+            }
+        }
+    }
+    .right_profile_sec{
+        background: #fff;
+        box-shadow: 0 3px 12px 0 rgba(0,0,0,0.15);
+        border-radius: 4px;
+        padding: 20px;
+        @media(min-width:992px) and (max-width:1199px){
+            padding: 14px;
+        }
+        @media(max-width:991px){
+            margin-top: 40px;
+        }
+        @media(max-width:576px){
+            padding: 5px;
+        }
+        .links_sidebar{
+            padding: 12px;
+            h3{
+                color: #222221;
+                font-size: 1.8125rem;
+                letter-spacing: 0.25px;
+                line-height: 40px;
+                margin: 0px;
+                border-bottom: 1px solid #e8e8e8;
+                display: inline-block;
+                padding-bottom: 10px;
+            }
+            .contactBox{
+                padding: 35px 12px 0;
+                @media(max-width:576px){
+                    .material-icons{
+                        font-size: 18px;
+                        vertical-align: top;
+                    }
+                }
+                .chatIntro{
+                    color: #222221;
+                    font-size: 20px;
+                    letter-spacing: 0.25px;
+                    line-height: 100%;
+                    display: block;
+                    margin: 0px 0px 24px 0px;
+                    font-family: adelle;
+                    @media(max-width:576px){
+                        font-size: 18px;
+                    }
+                }
+                a{
+                    color: #27A088;
+                    text-decoration: underline;
+                    margin-bottom: 30px;
+                    display: block;
+                    &:hover{
+                        color: #098169;
+                        text-decoration: none;
+                    }
+                }
+                p{
+                    color: #222221;
+                    font-size: 16px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

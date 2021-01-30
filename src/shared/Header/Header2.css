@@ -1,0 +1,14 @@
+/* Author Prashant Kumar */
+/* Copyright Smart Energy Water */
+header.HeaderMain {
+    display:none;
+}
+header.ShortHeader {
+    padding: 15px 0px;
+	background:#ffffff;
+}
+header.Header2Main a{
+    color:#999999;
+}
+nav.theme-color{display:none;}
+

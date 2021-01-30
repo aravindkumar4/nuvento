@@ -1,0 +1,29 @@
+{
+  "data" : [
+    {
+        "name": "Home",
+        "url": "/Dashboard"
+    },
+    {
+        "name": "Pledges",
+        "url": "/Pledges"
+      },
+    {
+      "name": "My Account",
+      "children": [
+        {
+          "name": "My Profile",
+          "url": "/myprofile"
+        },
+        {
+          "name": "Manage Users",
+          "url": "/manageusers"
+        }
+      ]
+    },
+    {
+        "name": "FAQs",
+        "url": "/faq"
+    }
+  ]
+}
